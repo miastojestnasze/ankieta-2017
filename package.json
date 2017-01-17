@@ -16,5 +16,8 @@
     "mongodb": "^2.2.21",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": "7.4.0"
   }
 }
