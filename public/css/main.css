@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,400italic,300,700,400&subset=latin-ext);
+
+/**TYPOGRAFIA**/
+
+body {
+	background: #fbfbfd;
+	font-family: 'Roboto', sans-serif;
+	color: #404040;
+	line-height: 22px;
+	margin: 10px 0 20px;
+	font-weight: 300; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 700; 
+	color:#404040;
+}
+
+h6 {
+	font-weight: 300; 
+	color:#333;
+}
+
+
+h1{
+	font-size: 2.8em !important;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
+h4{
+	font-size: 1.2em;
+}
+
+a {
+	color: #2d79c4;
+	-webkit-transition: color 300ms, background-color 300ms;
+	-moz-transition: color 300ms, background-color 300ms;
+	-o-transition:  color 300ms, background-color 300ms;
+	transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+	color: #3389de;
+}
+
+.jumbotron {
+	background-color: #e0e0d1;
+	border-radius: 12px;
+	margin: 20px 0;
+}
+
+/**PYTANIA**/
+
+.pyt {
+	padding: 20px;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.odp {
+	margin-top: 6px !important;
+	margin-bottom: 6px !important;
+}
+
+p small, label small, td small {
+	color: #999;
+	font-size: 75%;
+}
+
+.pytanie {
+	font-size: 1.2em;
+	padding: 30px 0 10px;
+	font-weight: 700;
+}
+
+/**DALEJ**/
+
+.butt-prev {
+	position: relative;
+	display: block;
+	width: 20%;
+	min-width: 80px;
+	height: 32px;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.butt-next {
+	position: relative;
+	display: block;
+	width: 20%;
+	min-width: 80px;
+	height: 32px;
+	margin-top: -32px;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: 50px;
+}

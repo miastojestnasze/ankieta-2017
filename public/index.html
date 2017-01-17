@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ankieta MJN 2017</title>
+	<meta name="author" content="Kacper Foremny">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-slider.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//ankieta-2017.miastojestnasze.org/piwik/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Piwik Code -->
+</head>
+<body>
+	<img src="logo.png" class="img-responsive center-block">
+	<div class="container" id="qint">
+		<div class="jumbotron">
+			<h1 class="text-center">WSTĘP</h1><br/>
+			<p class="text-justify lead">Drogie Członkinie, drodzy Członkowie,<br/><br/>
+			Niniejsza ankieta ma nas przygotować do wprowadzenia zmian w&nbspStatucie Miasto&nbspJest&nbspNasze. To&nbspdokument regulujący najważniejsze zasady działania naszej organizacji, strukturę, sposób wyboru władz i&nbspkompetencje ich organów. To&nbspważny moment dla naszej organizacji. Jako&nbspZarząd zobowiązaliśmy się do&nbspprzeprowadzenia tych zmian w&nbspsposób transparentny i&nbsppartycypacyjny. Ta&nbspankieta to&nbsppierwszy krok do zrealizowania tego planu. Nie&nbspwszystkie pytania dotyczą bezpośrednio kwestii, które można zapisać w Statucie, ale dają nam wszystkim wiedzę o tym, jak sami postrzegamy organizację, jej mocne i&nbspsłabe punkty, misję i&nbspzagrożenia. Kolejnymi krokami będą spotkania warsztatowe poświęcone wynikom ankiety oraz szczegółowym propozycjom zapisów statutu. Wszelkie zmiany będą poddane głosowaniu na Walnym Zebraniu, które odbędzie się na&nbspprzełomie lutego i&nbspmarca.<br/>
+			Prosimy Was o znalezienie czasu, by wypełnić ankietę na spokojnie. Zajmuje to ok. 30-45 minut. Warto dać sobie czas do namysłu.<br/><br/>
+			Pozdrawiamy, <br/>
+			Zarząd Miasto Jest Nasze</p>
+			<p class="text-center"><a href="#" class="btn btn-lg btn-danger" id="nint" role="button">Rozpocznij</a></p>
+		</div>
+	</div>
+	<form method="POST" action="/submission">
+    <input type="hidden" name="token" id="token" />
+	<div class="container">
+		<div class="container" id="q0">
+			<div class="pyt">
+				<h3 class="text-center">Kim jesteś?</h3>
+				<p class="pytanie">Ile masz lat?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_1" value="<24">23 lub mniej</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_1" value="24-29">24 - 29 lat</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_1" value="30-35">30 - 35 lat</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_1" value=">35">36 lat lub więcej</label>
+				</div>
+				
+				<p class="pytanie">Jak długo działasz w MJN?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="1">Od jesieni 2013</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="2">Działałam/em w MJN gdy powstało Porozumienie Ruchów Miejskich na wiosnę 2014</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="3">Byłam/em w MJN podczas agitacji wyborczej 2014</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="4">Przyszłam/edłem do MJN po wyborach samorządowych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="5">Jestem w MJN od około roku</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_2" value="6">Jestem w MJN od mniej niż 3 miesięcy</label>
+				</div>
+				
+				<p class="pytanie">Czy należysz do grupy dzielnicowej? </p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_3" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_3" value="nie">Nie</label>
+				</div>
+				
+				<p class="pytanie">Czy należysz do grupy tematycznej? </p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_4" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_4" value="nie">Nie</label>
+				</div>
+				
+				<p class="pytanie">Jak często w ciągu ostatniego roku chodziłaś/eś na spotkania ogólne MJN? </p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_5" value="1">Na każde</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_5" value="2">Na większość spotkań</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_5" value="3">Na około połowie spotkań</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_5" value="4">Rzadko</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_5" value="5">Na żadnym nie byłam/em</label>
+				</div>
+				
+				<p class="pytanie">Jak często w ciągu ostatniego roku chodziłaś/eś na spotkania dzielnicowe MJN? </p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_6" value="1">Na każde</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_6" value="2">Na większość spotkań</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_6" value="3">Na około połowie spotkań</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_6" value="4">Rzadko</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P1_6" value="5">Na żadnym nie byłam/em</label>
+				</div>
+				
+				<p class="pytanie">Jak często w ciągu ostatniego roku chodziłaś/eś na spotkania edukacyjne MJN (uniwersytet latający itp.)?</p>
+				<input id="s1" name="P1_7" type="text"/>
+				<p class="text-muted">(1 - w ogóle, 10 - na każde)</p>
+				
+				<p class="pytanie">W jakie maks. 3 dziedziny działań MJN chciałabyś/ałbyś osobiście się angażować lub jesteś już zaangażowana/y?  <small>(można zaznaczyć kilka odpowiedzi)</small></p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="1">architektura i planowanie przestrzenne 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="2">ochrona zabytków 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="3">ochrona powietrza (smog)
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="4">zieleń miejska 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="5">edukacja
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="6">seniorzy, dzieci i młodzież 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="7">kultura i sztuka
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="8">infrastruktura i transport publiczny 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="9">reprywatyzacja i lokatorzy
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="10">konsultacje społeczne 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="11">budżet partycypacyjny 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" value="12">transparentność polityki samorządowej
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P1_8" id="en1" id="en5" value="inne">Inne (jakie?)
+					</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t1" name="P1_8U" placeholder="Wpisz działania..." disabled></textarea>
+			</div>
+			<a href="#" id="p0" class="btn btn-default butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n1" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q1">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część I</small><br/>CELE MJN</h3>
+				<p class="pytanie">W jakie tematy MJN powinno się angażować, choć Ty możesz nie mieć czasu / ochoty / umiejętności by się nimi zajmować? <small>(można zaznaczyć do 5 odpowiedzi)</small></p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="1">architektura i planowanie przestrzenne 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="2">ochrona zabytków 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="3">ochrona powietrza (smog)
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="4">zieleń miejska 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="5">edukacja
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="6">seniorzy, dzieci i młodzież 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="7">kultura i sztuka
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="8">infrastruktura i transport publiczny 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="9">reprywatyzacja i lokatorzy
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="10">konsultacje społeczne 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="11">budżet partycypacyjny 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_1" value="12">transparentność polityki samorządowej
+					</label>
+				</div>
+				
+				<p class="pytanie">Jak widzisz udział MJN w wyborach samorządowych w roku 2018?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_2" value="1">Tak, powinniśmy startować do rad dzielnic, rady miasta i wystawiać/popierać kandydata na prezydenta</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_2" value="2">Tak, powinniśmy startować do rad dzielnic, rady miasta</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_2" value="3">Tak, powinniśmy startować do rad dzielnic</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_2" value="4">Nie, nie powinniśmy startować w wyborach samorządowych</label>
+				</div>
+				
+				<p class="pytanie">Jaki powinien być główny cel działań MJN?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_3" value="1">wygrana w wyborach samorządowych 2018 w Warszawie</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_3" value="2">organizacja kampanii społecznych - nagłaśnianie problemów istotnych dla Warszawy</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_3" value="3">działania lokalne, sąsiedzkie</label>
+				</div>
+				
+				<p class="pytanie">Oceń w skali od 1 do 10 na ile MJN powinien nawiązywać bezpośrednią współpracę z partiami politycznymi</p>
+				<input id="s2" name="P2_4" type="text"/>
+				<p class="text-muted">(1 - zdecydowanie nie, 10 - zdecydowanie tak)</p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" id="f1" name="P2_4b" value="nw">Nie mam zdania 
+					</label>
+				</div>
+				
+				<p class="pytanie">Oceń w skali od 1 do 10 na ile  MJN powinien nawiązywać bezpośrednią współpracę z ruchami miejskimi z Warszawy</p>
+				<input id="s3" name="P2_5" type="text"/>
+				<p class="text-muted">(1 - zdecydowanie nie, 10 - zdecydowanie tak)</p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" id="f2" name="P2_4b" value="nw">Nie mam zdania 
+					</label>
+				</div>
+				
+				<p class="pytanie">Oceń w skali od 1 do 10 na ile MJN powinien nawiązywać bezpośrednią współpracę z ruchami miejskimi spoza Warszawy</p>
+				<input id="s4" name="P2_6" type="text"/>
+				<p class="text-muted">(1 - zdecydowanie nie, 10 - zdecydowanie tak)</p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" id="f3" name="P2_4b" value="nw">Nie mam zdania 
+					</label>
+				</div>
+				
+				<p class="pytanie">Czy słyszałaś/eś o Kongresie Ruchów Miejskich?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_7" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_7" value="nie">Nie</label>
+				</div>
+				
+				<p class="pytanie">Jakie jest <span class="text-uppercase">główne</span> zagrożenie, z którym musi zmierzyć się Miasto Jest Nasze? <small>(zaznacz proszę jedną najważniejszą Twoim zdaniem odpowiedź)</small></p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="1">Chaos organizacyjny, niezdolność do przeprowadzania podnoszonych spraw do końca</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="2">Rozbicie organizacji przez podmioty zewnętrzne (deweloperzy, ratusz, partie polityczne) </label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="3">Jałowość i bezproduktywność działań organizacji, zamiana w towarzystwo wzajemnej adoracji</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="4">Spory wewnętrzne, konflikty między ciałami statutowymi</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="5">Brak transparentności działań, przejęcie negatywnych schematów funkcjonowania partii politycznych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="6">Brak charyzmatycznego przywództwa</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="7">Zanik medialnego zainteresowania stowarzyszeniem</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P2_8" value="8">Oderwanie organizacji od mieszkańców, zamknięcie się na problemy obywateli</label>
+				</div>
+				
+				<p class="pytanie">Jakie, oprócz tego, są <span class="text-uppercase">inne ważne</span> zagrożenia, z którym musi zmierzyć się Miasto Jest Nasze? <small>(zaznacz proszę do dwóch odpowiedzi, innych niż odpowiedź w poprzednim pytaniu)</small></p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="1">Chaos organizacyjny, niezdolność do przeprowadzania podnoszonych spraw do końca 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="2">Rozbicie organizacji przez podmioty zewnętrzne (deweloperzy, ratusz, partie polityczne) 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="3">Jałowość i bezproduktywność działań organizacji, zamiana w towarzystwo wzajemnej adoracji 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="4">Spory wewnętrzne, konflikty między ciałami statutowymi 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="5">Brak transparentności działań, przejęcie negatywnych schematów funkcjonowania partii politycznych 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="6">Brak charyzmatycznego przywództwa 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="7">Zanik medialnego zainteresowania stowarzyszeniem 
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P2_9" value="8">Oderwanie organizacji od mieszkańców, zamknięcie się na problemy obywateli 
+					</label>
+				</div>
+			</div>
+			<a href="#" id="p1" class="btn btn-default butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n2" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q2">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część II</small><br />TRANSPARENTNOŚĆ</h3>
+				<p class="pytanie">Stowarzyszenie dostaje propozycję współpracy od jednej z partii politycznych. Co powinien zrobić Zarząd Stowarzyszenia?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_1" value="1">Uzgodnić z Członkami linię negocjacji</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_1" value="2">Samodzielnie podjąć się rozmów i poinformować tylko o ich efektach i podjętych decyzjach</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_1" value="3">Wysłać Prezesa, który samodzielnie negocjuje</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en2" name="P3_1" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t2" name="P3_1U" placeholder="Co innego należałoby zrobić?" disabled></textarea>
+				
+				<p class="pytanie">Zarząd zastanawia się nad zajęciem się sprawą reprywatyzacji pewnego budynku. Otrzymał z poufnego źródła informacje mogące budzić podejrzenia co do sprawy. Jak powinien postąpić? </p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_2" value="1">Zastanowić się wraz z Członkami, czy warto podjąć ten temat</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_2" value="2">Samodzielnie zająć się z tym tematem i zająć stanowisko w imieniu Stowarzyszenia</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P3_2" value="3">Wysłać Prezesa, który samodzielnie negocjuje</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en3" name="P3_2" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t3" name="P3_2U" placeholder="Co innego należałoby zrobić?" disabled></textarea>
+			</div>
+			<a href="#" id="p2" class="btn btn-default butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n3" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q3">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część III</small><br />SĄD KOLEŻEŃSKI</h3>
+				<p class="pytanie">Jakie powinny być kompetencje Sądu Koleżeńskiego?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P4_1" value="1">Instytucja Sądu Koleżeńskiego nie jest potrzebna</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P4_1" value="2">Sąd Koleżeński powinien działać tak jak teraz - nie może interweniować w sytuacji sporu personalnego lub merytorycznego. Sąd może jedynie wydawać postanowienia w reakcji na odwołania od konkretnych uchwał Zarządu ws. personalnych </label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P4_1" value="3">Kompetencje Sądu powinny być rozszerzone, by mógł interweniować w przypadkach konfliktów personalnych między Członkami Stowarzyszenia</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P4_1" value="4">Kompetencje Sądu powinny być rozszerzone, by mógł interweniować w przypadkach konfliktów personalnych oraz merytorycznych między Członkami Stowarzyszenia</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en4" name="P4_1" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t4" name="P4_1U" placeholder="Tutaj wpisz kompetencje..." disabled></textarea>
+			</div>
+			<a href="#" id="p3" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n4" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q4">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część IV</small><br />KOMISJA REWIZYJNA</h3>
+				<p class="pytanie">Stanowiska Komisji Rewizyjnej powinny być publikowane:</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_1" value="1">raz na rok</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_1" value="2">raz na pół roku</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_1" value="3">raz na kwartał</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_1" value="4">raz na kwartał lub częściej jeśli zajdzie potrzeba</label>
+				</div>
+				
+				<p class="pytanie">Kontrola zgodności działań stowarzyszenia ze statutem powinna obejmować:</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_2" value="1">Prace zarządu</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_2" value="2">Prace zarządu i kół dzielnicowych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_2" value="3">Prace zarządu, kół dzielnicowych i komisji tematycznych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_2" value="4">Prace zarządu, kół dzielnicowych i komisji tematycznych i sądu koleżeńskiego</label>
+				</div>
+				
+				<p class="pytanie">Rola komisji rewizyjnej powinna polegać na:</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_3" value="1">Funkcji kontrolnej. KomRew sprawdza czy organy Stowarzyszenia funkcjonują zgodnie ze Statutem</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P5_3" value="2">Funkcji kontrolnej i doradczej; KomRew sprawdza czy organy Stowarzyszenia funkcjonują zgodnie ze Statutem oraz wydaje oficjalne stanowiska dotyczące problemów merytorycznych lub instytucjonalnych</label>
+				</div>
+			</div>
+			<a href="#" id="p4" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n5" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q5">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część VI</small><br />DZIELNICE</h3>
+				<p class="pytanie">Czy według Ciebie funkcjonowanie dzielnic wymaga zmiany?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="show1" name="P6_1" value="1">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P6_1" value="2">Nie</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P6_1" value="3">Nie wiem</label>
+				</div>
+				<div id="watch1"><textarea class="form-control" rows="2" name="P6_1U" placeholder="Tutaj napisz co wymaga zmiany..."></textarea></div>
+				
+				<p class="pytanie">Czy dzielnice według Ciebie powinny móc działać autonomicznie bez uprzedniej konsultacji z Zarządem?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="show2" name="P6_2" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P6_2" value="nie">Nie</label>
+				</div>
+				
+				<div id="watch2"><p class="pytanie">W jakich sprawach dzielnice powinny mieć pełną autonomię działania?</p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P6_3" value="1">Podejmowanie nowych tematów lokalnych
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P6_3" value="2">Zajmowanie publicznego stanowiska w sprawach dzielnicowych
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P6_3" value="3">Zajmowanie publicznego stanowiska w sprawach, które dotyczą więcej niż jednej dzielnicy (np. budowa mostu lub trasy)
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P6_3" value="4">Wybór i kolejność osób na listach wyborczych w dzielnicach
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P6_3" id="en5" value="inne">Inne (jakie?)
+					</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t5" name="P6_3U" placeholder="Tutaj wpisz tekst..." disabled></textarea></div>
+			</div>
+			<a href="#" id="p5" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n6" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q6">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część VII</small><br />CZŁONKOWSTWO</h3>
+				<p class="pytanie">Możliwość przyjmowania nowych Członków powinna być:</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_1" value="1">Łatwiejsza niż obecnie – rośnijmy ile się da!</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_1" value="2">Trudniejsza niż obecnie – uważajmy, kogo wpuszczamy w nasze szeregi!</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_1" value="3">Taka sama jak obecnie</label>
+				</div>
+				
+				<p class="pytanie">Jak Twoim zdaniem powinny wyglądać prawa Członka w MJN?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_2" value="1">Powinny być takie same dla wszystkich osób zapisanych do organizacji</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_2" value="2">Powinniśmy wprowadzić dwa rodzaje członkostwa: “Członek wspierający”, dla osób zapisanych ale nieaktywnych - nie posiadający prawa głosu, oraz “Członek zwyczajny” dla osób aktywnych, mający prawo głosu przy wyborze władz MJN</label>
+				</div>
+				
+				<p class="pytanie">Czy po zgłoszeniu się do Stowarzyszenia i podpisaniu deklaracji kandydat na Członka powinien zostać od razu przyjęty?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_3" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="show3" name="P7_3" value="nie">Nie</label>
+				</div>
+				
+				<div id="watch3"><p class="pytanie">Ile powinien trwać okres wstępny (oczekiwanie na przyjęcie do grona Członków)?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_4" value="<1">Krócej niż miesiąc</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_4" value="1-2">1-2 miesiące</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_4" value="2-3">2-3 miesiące</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_4" value="3-4">3-4 miesiące</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P7_4" value=">4">Dłużej niż 4 miesiące</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en6" name="P7_4" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t6" name="P7_4U" placeholder="Jak długo?" disabled></textarea></div>
+			</div>
+			<a href="#" id="p6" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n7" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q7">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część VIII</small><br />ZARZĄD</h3>
+				<p class="pytanie">Jaki powinien być sposób wyboru członków Zarządu?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="1">Taki jak dotychczas (wybierani przez Walne)</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="2">Wybierani przez delegatów, których wybiorą spośród siebie dzielnice</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="3">Wybierani przez Przewodniczącego wybranego w wyborach powszechnych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="4">Mieszany: część wybiera Walne, część Prezes</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="5">Mieszany: część wybiera Prezes, część Delegaci dzielnic</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_1" value="6">Mieszany: część wybierają Delegaci dzielnic, część Walne</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en7" name="P8_1" value="7">Inne (jakie?)</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t7" name="P8_1U" placeholder="Tutaj wpisz propnowany sposób..." disabled></textarea>
+				
+				<p class="pytanie">Ile osób powinno wchodzić w skład Zarządu?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_2" value="3-5">Od 3 do 5 osób</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_2" value="5-7">Od 5 do 7 osób</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en8" name="P8_2" value="inne">Inna ilość (jaka?)</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t8" name="P8_2U" placeholder="Tutaj wprowadź ilość..." disabled></textarea>
+				
+				<p class="pytanie">Kompetencje członków Zarządu należy:</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_3" value="1">Zostawić takie, jakie są</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_3" value="2">Zmniejszyć, na rzecz większych kompetencji samego Prezesa</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_3" value="3">Zmniejszyć, na rzecz większych kompetencji Dzielnic i Komisji Tematycznych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_3" value="4">Zwiększyć, by bardziej sterowali działaniami np. w dzielnicach</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en9" name="P8_3" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t9" name="P8_3U" placeholder="Tutaj wpisz, co należy z nimi zrobić..." disabled></textarea>
+				
+				<p class="pytanie">Ile powinna trwać kadencja Zarządu?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_4" value="1">Pół roku</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_4" value="2">Rok</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P8_4" value="3">Dwa lata</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en10" name="P8_4" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t10" name="P8_4U" placeholder="Tutaj wprowadź długość kadencji..." disabled></textarea>
+			</div>
+			<a href="#" id="p7" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<a href="#" id="n8" class="btn btn-primary butt-next" role="button">DALEJ</a>
+		</div>
+		
+		
+		<div class="container" id="q8">
+			<div class="pyt">
+				<h3 class="text-center"><small>Część VIII</small><br />PREZES</h3>
+				<p class="pytanie">Jakie powinny być kompetencje Prezesa Miasto Jest Nasze? <small>(można zaznaczyć kilka odpowiedzi)</small></p>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="1">Takie same jak innych członków Zarządu
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="2">zwoływanie zebrań Zarządu i przewodniczenie pracom Zarządu
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="3">samodzielne prowadzenie komunikacji zewnętrznej Stowarzyszenia
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="4">samodzielne prowadzenie negocjacji politycznych w imieniu Stowarzyszenia
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="5">samodzielne podejmowanie decyzji personalnych (np. przyjęcie i usunięcie Członków, mianowanie koordynatorów, pełnomocników, kolejności na listach wyborczych)
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="6">samodzielny wybór tematów i kierunku rozwoju Stowarzyszenia
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="7">samodzielny dobór innych Członków Zarządu
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" value="8">samodzielne rozdzielenie funkcji pełnionych przez członków Zarządu
+					</label>
+				</div>
+				<div class="checkbox" class="odp">
+					<label>
+						<input type="checkbox" name="P9_1" id="en11" value="9">Inne (jakie?)
+					</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t11" name="P9_1U" placeholder="Tutaj opisz kompetencje..." disabled></textarea>
+				
+				<p class="pytanie">Jaki powinien być sposób wyboru Prezesa?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_2" value="1">Powinien być wybierany przez Zarząd spośród osób wybranych do Zarządu</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_2" value="2">Powinien być wybierany przez wszystkich Członków Stowarzyszenia w wyborach powszechnych</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" id="en12" name="P9_2" value="inne">Inne</label>
+				</div>
+				<textarea class="form-control" rows="2" id="t12" name="P9_2U" placeholder="Tutaj opisz sposób wyboru..." disabled></textarea>
+				
+				<p class="pytanie">Czy funkcja Prezesa powinna być rotacyjna?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_3" value="tak">Tak</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_3" value="nie">Nie</label>
+				</div>
+				
+				<p class="pytanie">Co ile powinna odbywać się rotacja?</p>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_4" value="1">Mniej niż 3 miesiące</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_4" value="2">Pół roku</label>
+				</div>
+				<div class="radio">
+					<label class="odp"><input type="radio" name="P9_4" value="3">Rok</label>
+				</div>
+			</div>
+			<a href="#" id="p8" class="btn btn-primary butt-prev" role="button">WSTECZ</a>
+			<input type="submit" id="n9" class="btn btn-success butt-next" value="ZAKOŃCZ" name="B1">
+		</div>
+	</form>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
+	<script src="js/pytania.js"></script>
+</body>
+</html>
