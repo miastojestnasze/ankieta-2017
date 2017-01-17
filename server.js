@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const mongo = require('./db');
 
 let db = null;
+let port = process.env.PORT || '3000';
 let app = express();
 
 mongo.connect();
@@ -85,5 +86,6 @@ app.use(function(err, req, res, next) {
   res.send(err.message);
 });
 
-
-module.exports = app;
+app.listen(port, function () {
+  console.log('App listening on port ' + port);
+});

@@ -1,4 +1,4 @@
-const db = require('../db');
+const db = require('./db');
 const crypto = require('crypto');
 
 let mailgunApiKey = process.env.MAILGUN_API_KEY;
