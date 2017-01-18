@@ -10,7 +10,7 @@ $(document).ready(function(){
 		$("#qint").fadeIn();
 	});
 	$("#n1").click(function(){
-		if (!$("input[name=P1_1]").is(":checked"), !$("input[name=P1_2]").is(":checked"), !$("input[name=P1_3]").is(":checked"), !$("input[name=P1_4]").is(":checked"), !$("input[name=P1_5]").is(":checked"), !$("input[name=P1_6]").is(":checked"), !$("input[name=P1_8]").is(":checked"))
+		if (!$("input[name=P1_1]").is(":checked"), !$("input[name=P1_2]").is(":checked"), !$("input[name=P1_3]").is(":checked"), !$("input[name=P1_4]").is(":checked"), !$("input[name=P1_5]").is(":checked"), !$("input[name=P1_6]").is(":checked"))
 		{ alert('Proszę wybrać odpowiedź.') }
 		else {
 		$("#q0").hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		$("#q0").fadeIn();
 	});
 	$("#n2").click(function(){
-		if (!$("input[name=P2_1]").is(":checked"), !$("input[name=P2_2]").is(":checked"), !$("input[name=P2_3]").is(":checked"), !$("input[name=P2_7]").is(":checked"), !$("input[name=P2_8]").is(":checked"), !$("input[name=P2_9]").is(":checked"))
+		if (!$("input[name=P2_2]").is(":checked"), !$("input[name=P2_3]").is(":checked"), !$("input[name=P2_7]").is(":checked"), !$("input[name=P2_8]").is(":checked"))
 		{ alert('Proszę wybrać odpowiedź.') }
 		else {
 		$("#q1").hide();
@@ -70,7 +70,7 @@ $(document).ready(function(){
 		$("#q4").fadeIn();
 	});
 	$("#n6").click(function(){
-		if (!$("input[name=P6_1]").is(":checked"), !$("input[name=P6_2]").is(":checked"))
+		if (!$("input[name=P6_1]").is(":checked"))
 		{ alert('Proszę wybrać odpowiedź.') }
 		else {
 		$("#q5").hide();
@@ -106,10 +106,16 @@ $(document).ready(function(){
 		$("#q7").fadeIn();
 	});
 	$("#n9").click(function(){
-		if (!$("input[name=P9_1]").is(":checked"), !$("input[name=P9_2]").is(":checked"), !$("input[name=P9_3]").is(":checked"), !$("input[name=P9_4]").is(":checked"))
-		{ alert('Proszę wybrać odpowiedź.');
-		return false;
+		if ($("input[name=P9_2]").is(":checked"), !$("input[name=P9_3]").is(":checked"))
+		{ alert('Proszę wybrać odpowiedź.') }
+		else {
+		$("#q8").hide();
+		$("#q9").fadeIn();
 		}
+	});
+	$("#p9").click(function(){
+		$("#q9").hide();
+		$("#q8").fadeIn();
 	});
 	$("#en1").change(function() {
         $("#t1").removeAttr('disabled');
